@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - CSDS221_PR03</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+<link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="wrapper">
+    <h1>Minesweeper</h1>
+  <h2><a href="https://www.w3schools.com">User cases Document</a></h2>
+  
+    <h2>Use full screen for better experience</h2>
+  <h3>(check out the notification in the bottom-left corner)</h3>
+
+    <div id="minesweeper">
+      <ul class="level-select">
+        <li><button data-level="easy">Easy</button></li>
+        <li><button data-level="mid">Medium</button></li>
+        <li><button data-level="hard">Hard</button></li>
+      </ul>
+      <div class="menu">
+        <ul>
+          <li class="timer">000</li>
+          <li class="reset"><button></button></li>
+          <li class="mine-count">010</li>
+        </ul>
+      </div>
+      <div id="mine-grid"></div>
+    </div>
+  </div>
+<!-- partial -->
+  <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
+<script src='https://example.com/fontawesome/v6.2.1/js/all.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/toastr.js/2.1.4/toastr.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
